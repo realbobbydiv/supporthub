@@ -104,9 +104,3 @@ This project was built to practice:
 
 ---
 
-## Possible next steps
-
-- Improve UI and UX
-- Role-based permissions (admin / agent / user)
-- Pagination and filtering
-- Deployment
