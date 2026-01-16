@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: supporthub_db
+    environment:
+      POSTGRES_USER: supporthub
+      POSTGRES_PASSWORD: supporthub
+      POSTGRES_DB: supporthub
+    ports:
+      - "5432:5432"
+    volumes:
+      - supporthub_pgdata:/var/lib/postgresql/data
+
+volumes:
+  supporthub_pgdata:
